@@ -7,59 +7,79 @@ let invalid = 'Sorry, you have entered an invalid answer.'
 // let nChecker = 'n'
 // let yesChecker = 'yes'
 // let yChecker = 'y'
-//let loopCheck = false;
+let loopCheck = false;
 
 alert(`Welcome to my page ${webGuest}! Today I will be asking you a series of questions about myself.
 Please answer them all with either yes/no or y/n.`)
 
-let questionOne = prompt('Did I grow up in Washington?').toLowerCase()
+while(loopCheck !== true){
+    let questionOne = prompt('Did I grow up in Washington?').toLowerCase()
 
-if(questionOne === 'n' || questionOne === 'no'){
-    alert('Correct! I did not grow up in Washington, I was born in Texas and grew up in Iowa.')
-} else if(questionOne === 'y' || questionOne === 'yes'){
-    alert('Incorrect! I actually grew up in Iowa.')
-} else{
-    alert(invalid)
+    if(questionOne === 'n' || questionOne === 'no'){
+        alert('Correct! I did not grow up in Washington, I was born in Texas and grew up in Iowa.')
+        loopCheck = true
+    } else if(questionOne === 'y' || questionOne === 'yes'){
+        alert('Incorrect! I actually grew up in Iowa.')
+        loopCheck = true
+    } else{
+        alert(invalid)
+    }
 }
 
-let questionTwo = prompt('Do I have an undergraduate degree?').toLowerCase()
+while(loopCheck !== false){
+    let questionTwo = prompt('Do I have an undergraduate degree?').toLowerCase()
 
-if(questionTwo === 'n' || questionTwo === 'no'){
-    alert('Correct! I do not have an undergraduate degree.')
-} else if(questionTwo === 'y' || questionTwo === 'yes'){
-    alert('Incorrect! I do have an Associates Degree and I do plan to finish an undergraduate degree.')
-} else{
-    alert(invalid)
+    if(questionTwo === 'n' || questionTwo === 'no'){
+        alert('Correct! I do not have an undergraduate degree.')
+        loopCheck = false
+    } else if(questionTwo === 'y' || questionTwo === 'yes'){
+        alert('Incorrect! I do have an Associates Degree and I do plan to finish an undergraduate degree.')
+        loopCheck = false
+    } else{
+        alert(invalid)
+    }
 }
 
-let questionThree = prompt('Have I ever worked in tech?').toLowerCase()
+while(loopCheck !== true){
+    let questionThree = prompt('Have I ever worked in tech?').toLowerCase()
 
-if(questionThree === 'n' || questionThree === 'no'){
-    alert('Correct! I have never had a job in tech.')
-} else if(questionThree === 'y' || questionThree === 'yes'){
-    alert('Incorrect! I have never had a job in tech.')
-} else{
-    alert(invalid)
+    if(questionThree === 'n' || questionThree === 'no'){
+        alert('Correct! I have never had a job in tech.')
+        loopCheck = true
+    } else if(questionThree === 'y' || questionThree === 'yes'){
+        alert('Incorrect! I have never had a job in tech.')
+        loopCheck = true
+    } else{
+        alert(invalid)
+    }
 }
 
-let questionFour = prompt('Would I ever want to work in Cyber Security?').toLowerCase()
+while(loopCheck !== false){
+    let questionFour = prompt('Would I ever want to work in Cyber Security?').toLowerCase()
 
-if(questionFour === 'y' || questionFour === 'yes'){
-    alert('Correct! Cyber Security is a huge interest of mine actually.')
-} else if(questionFour === 'n' || questionFour === 'no'){
-    alert('Incorrect! Cyber Security is actually fascinating to me and I hope to one day be in the industry.')
-} else{
-    alert(invalid)
+    if(questionFour === 'y' || questionFour === 'yes'){
+        alert('Correct! Cyber Security is a huge interest of mine actually.')
+        loopCheck = false
+    } else if(questionFour === 'n' || questionFour === 'no'){
+        alert('Incorrect! Cyber Security is actually fascinating to me and I hope to one day be in the industry.')
+        loopCheck = false
+    } else{
+        alert(invalid)
+    }
 }
 
-let questionFive = prompt('Is Discord my favorit tech company?').toLowerCase()
+while(loopCheck !== true){
+    let questionFive = prompt('Is Discord my favorit tech company?').toLowerCase()
 
-if(questionFive === 'y' || questionFive === 'yes'){
-    alert('Correct! Discord is an awesome application that allows me to connect with people everywhere for gaming and other things!')
-} else if(questionFive === 'n' || questionFive === 'no'){
-    alert('Incorrect! Discord is an awesome application and I recomment you check it out!')
-}else{
-    alert(invalid)
+    if(questionFive === 'y' || questionFive === 'yes'){
+        alert('Correct! Discord is an awesome application that allows me to connect with people everywhere for gaming and other things!')
+        loopCheck = true
+    } else if(questionFive === 'n' || questionFive === 'no'){
+        alert('Incorrect! Discord is an awesome application and I recomment you check it out!')
+        loopCheck = true
+    }else{
+        alert(invalid)
+    }
 }
 
 alert(`Thank you ${webGuest} for taking my mini quiz!`)
