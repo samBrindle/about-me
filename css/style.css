@@ -1,5 +1,24 @@
-h1 {
-    font-family:Helvetica;
+* {
+    font-family:serif;
     background-color: grey;
+    color: black
+}
+
+h1 {
+    font-size:xx-large;
     color:blue;
+    text-align: center;
+}
+
+h3 {
+    font-size: large;
+}
+
+p {
+    font-size: medium;
+    ba
+}
+
+h2 {
+    font-size:medium;
 }
