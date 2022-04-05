@@ -2,11 +2,6 @@
 
 let webGuest = prompt('Hello! What is your name?')
 let invalid = 'Sorry, you have entered an invalid answer.'
-
-// let noChecker = 'no'
-// let nChecker = 'n'
-// let yesChecker = 'yes'
-// let yChecker = 'y'
 let loopCheck = false;
 
 alert(`Welcome to my page ${webGuest}! Today I will be asking you a series of questions about myself.
