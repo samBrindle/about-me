@@ -70,9 +70,9 @@ alert(`Thank you ${webGuest} for taking my mini quiz!`)
     Would I ever want to work in Cyber Security? Yes
     Is Discord my favorite tech company? Yes
     
-    Hello, my name is Sam Brindle. I am enrolled in a course at Code Fellows in Washington state but recently finished
+    "Hello, my name is Sam Brindle. I am enrolled in a course at Code Fellows in Washington state but recently finished
     my Associates Degree at Shoreline CC. I have never had a job in tech before, with my most recent employer being a 
     natural dying company. I plan to learn the skills of a full stack software developer through Code Fellows and 
     aspire to finish my Undergraduate Degree in Computer Science with a focus in Cyber Security. While I am sure my path
-    sounds rather unclear to you as a reader I appreciate you coming to my page and reading about me.
+    sounds rather unclear to you as a reader I appreciate you coming to my page and reading about me."
 */
