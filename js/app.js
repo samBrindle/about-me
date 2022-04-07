@@ -51,7 +51,7 @@ function numTwo() {
         } else if(questionTwo === 'y' || questionTwo === 'yes'){
             alert('Incorrect! I do have an Associates Degree and I do plan to finish an undergraduate degree.');
             loopCheck = false;
-        } else{
+        } else {
             alert(invalid);
         }
     }
@@ -59,18 +59,20 @@ function numTwo() {
 // Question Three
 // Function name: numThree
 // Input: None
-while(loopCheck !== true){
-    let questionThree = prompt('Have I ever worked in tech?').toLowerCase();
+function numThree() {
+    while(loopCheck !== true){
+        let questionThree = prompt('Have I ever worked in tech?').toLowerCase();
 
-    if(questionThree === 'n' || questionThree === 'no'){
-        alert('Correct! I have never had a job in tech.');
-        loopCheck = true;
-        correct++;
-    } else if(questionThree === 'y' || questionThree === 'yes'){
-        alert('Incorrect! I have never had a job in tech.');
-        loopCheck = true;
-    } else{
-        alert(invalid);
+        if(questionThree === 'n' || questionThree === 'no'){
+            alert('Correct! I have never had a job in tech.');
+            loopCheck = true;
+            correct++;
+        } else if(questionThree === 'y' || questionThree === 'yes'){
+            alert('Incorrect! I have never had a job in tech.');
+            loopCheck = true;
+        } else{
+            alert(invalid);
+        }
     }
 }
 
