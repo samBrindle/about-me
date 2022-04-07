@@ -6,7 +6,8 @@ let invalid = 'Sorry, you have entered an invalid answer.';
 // Initializing loopCheck as a boolean variable for my while lopos
 let loopCheck = false;
 // Initializing number as a Int
-let number = 8;
+let number = Math.ceil(Math.random() * 100);
+// Math.floor(Math.random() * 10 + 1);
 // Initializing rightNum as a boolean for a loop
 let rightNum = false;
 // Initializing correct answer counter
