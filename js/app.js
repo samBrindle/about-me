@@ -144,43 +144,45 @@ function numSix() {
 // Question Seven
 // function name: numSeven
 // input: None
-for(let i = 0; i < 6; i++){
-    let youRight = false;
-    let questionSeven = prompt('Guess a language I can speak/code!').toLowerCase();
+function numSeven() {
+    for(let i = 0; i < 6; i++){
+        let youRight = false;
+        let questionSeven = prompt('Guess a language I can speak/code!').toLowerCase();
 
-    for(let j = 0; j < languages.length; j++){
+        for(let j = 0; j < languages.length; j++){
 
-        if(languages[j] === questionSeven){
-            alert(`Correct! I do know ${languages[j]}`);
-            alert(`I know the following languages ${languages}.`);
-            correct++;
-            youRight = true;
-            j = languages.length;
+            if(languages[j] === questionSeven){
+                alert(`Correct! I do know ${languages[j]}`);
+                alert(`I know the following languages ${languages}.`);
+                correct++;
+                youRight = true;
+                j = languages.length;
+            }
         }
-    }
+            
+        if(youRight){
+            i = 6;
+        } else if(i === 5){
+            alert(`You used all of your guesses, I know the following languages ${languages}.`);
+            break;
+        } else{
+            alert(`Sorry, I do not know ${questionSeven}. Try Again!`);
+        }
         
-    if(youRight){
-        i = 6;
-    } else if(i === 5){
-        alert(`You used all of your guesses, I know the following languages ${languages}.`);
-        break;
-    } else{
-        alert(`Sorry, I do not know ${questionSeven}. Try Again!`);
     }
-    
-}
 
-alert(`Thank you ${webGuest} for taking my mini quiz! You got ${correct}/7!`);
-/*
-    Did I grow up in Washington? No
-    Do I have an undergraduate degree? No
-    Have I ever worked in tech? No
-    Would I ever want to work in Cyber Security? Yes
-    Is Discord my favorite tech company? Yes
-    
-    "Hello, my name is Sam Brindle. I am enrolled in a course at Code Fellows in Washington state but recently finished
-    my Associates Degree at Shoreline CC. I have never had a job in tech before, with my most recent employer being a 
-    natural dying company. I plan to learn the skills of a full stack software developer through Code Fellows and 
-    aspire to finish my Undergraduate Degree in Computer Science with a focus in Cyber Security. While I am sure my path
-    sounds rather unclear to you as a reader I appreciate you coming to my page and reading about me."
-*/
+    alert(`Thank you ${webGuest} for taking my mini quiz! You got ${correct}/7!`);
+    /*
+        Did I grow up in Washington? No
+        Do I have an undergraduate degree? No
+        Have I ever worked in tech? No
+        Would I ever want to work in Cyber Security? Yes
+        Is Discord my favorite tech company? Yes
+        
+        "Hello, my name is Sam Brindle. I am enrolled in a course at Code Fellows in Washington state but recently finished
+        my Associates Degree at Shoreline CC. I have never had a job in tech before, with my most recent employer being a 
+        natural dying company. I plan to learn the skills of a full stack software developer through Code Fellows and 
+        aspire to finish my Undergraduate Degree in Computer Science with a focus in Cyber Security. While I am sure my path
+        sounds rather unclear to you as a reader I appreciate you coming to my page and reading about me."
+    */
+}
