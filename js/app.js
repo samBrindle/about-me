@@ -19,6 +19,8 @@ alert(`Welcome to my page ${webGuest}! Today I will be asking you a series of qu
 Please answer them all with either yes/no or y/n.`);
 
 // Question One
+// Function name: numOne
+// Input: None
 while(loopCheck !== true){
     let questionOne = prompt('Did I grow up in Washington?').toLowerCase();
 
@@ -35,6 +37,8 @@ while(loopCheck !== true){
 }
 
 // Question Two
+// Function name: numTwo
+// Input: None
 while(loopCheck !== false){
     let questionTwo = prompt('Do I have an undergraduate degree?').toLowerCase();
 
@@ -51,6 +55,8 @@ while(loopCheck !== false){
 }
 
 // Question Three
+// Function name: numThree
+// Input: None
 while(loopCheck !== true){
     let questionThree = prompt('Have I ever worked in tech?').toLowerCase();
 
@@ -67,6 +73,8 @@ while(loopCheck !== true){
 }
 
 // Question Four
+// Function name: numFour
+// Input: None
 while(loopCheck !== false){
     let questionFour = prompt('Would I ever want to work in Cyber Security?').toLowerCase();
 
@@ -83,6 +91,8 @@ while(loopCheck !== false){
 }
 
 // Question Five
+// Function name: numFive
+// Input: None
 while(loopCheck !== true){
     let questionFive = prompt('Is Discord my favorit tech company?').toLowerCase();
 
@@ -99,6 +109,8 @@ while(loopCheck !== true){
 }
 
 // Question Six
+// Function name: numSix
+// Input: None
 for(let i = 0; i <= 4; i++) {
     if(i === 4){
         alert(`Sorry you used all 4 guesses. The correct answer was ${number}`);
@@ -121,6 +133,8 @@ for(let i = 0; i <= 4; i++) {
 }
 
 // Question Seven
+// function name: numSeven
+// input: None
 for(let i = 0; i < 6; i++){
     let youRight = false;
     let questionSeven = prompt('Guess a language I can speak/code!').toLowerCase();
