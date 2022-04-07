@@ -1,7 +1,8 @@
 * {
     font-family:serif;
     background-color: grey;
-    color: black
+    color: black;
+    text-align: center;
 }
 
 h1 {
@@ -12,13 +13,53 @@ h1 {
 
 h3 {
     font-size: large;
+    border: 2px solid white;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(91, 206, 235);
+    color:blue;
+}
+
+h4 {
+    color: blue;
+    border: 2px solid white;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(91, 206, 235);
 }
 
 p {
+    padding: 14px;
     font-size: medium;
-    ba
 }
 
 h2 {
     font-size: medium;
+    color: blue;
+    border: 2px solid white;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(91, 206, 235);
+
+}
+
+/*
+Found help from the following stackoverflow page
+https://stackoverflow.com/questions/32039846/can-i-use-css-to-add-a-bullet-point-to-any-element
+*/
+
+ol li {
+    display: list-item;                                                       
+    list-style-type: decimal;     
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 20px;
+}
+
+ul li {
+    display: list-item; 
+    list-style-type: disc;
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 20px;
 }
