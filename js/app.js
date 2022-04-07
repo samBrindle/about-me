@@ -79,18 +79,20 @@ function numThree() {
 // Question Four
 // Function name: numFour
 // Input: None
-while(loopCheck !== false){
-    let questionFour = prompt('Would I ever want to work in Cyber Security?').toLowerCase();
+function numFour() {
+    while(loopCheck !== false){
+        let questionFour = prompt('Would I ever want to work in Cyber Security?').toLowerCase();
 
-    if(questionFour === 'y' || questionFour === 'yes'){
-        alert('Correct! Cyber Security is a huge interest of mine actually.');
-        loopCheck = false;
-        correct++;
-    } else if(questionFour === 'n' || questionFour === 'no'){
-        alert('Incorrect! Cyber Security is actually fascinating to me and I hope to one day be in the industry.');
-        loopCheck = false;
-    } else{
-        alert(invalid);
+        if(questionFour === 'y' || questionFour === 'yes'){
+            alert('Correct! Cyber Security is a huge interest of mine actually.');
+            loopCheck = false;
+            correct++;
+        } else if(questionFour === 'n' || questionFour === 'no'){
+            alert('Incorrect! Cyber Security is actually fascinating to me and I hope to one day be in the industry.');
+            loopCheck = false;
+        } else{
+            alert(invalid);
+        }
     }
 }
 
