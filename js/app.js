@@ -21,21 +21,22 @@ Please answer them all with either yes/no or y/n.`);
 // Question One
 // Function name: numOne
 // Input: None
-while(loopCheck !== true){
-    let questionOne = prompt('Did I grow up in Washington?').toLowerCase();
+function numOne() {
+    while(loopCheck !== true){
+        let questionOne = prompt('Did I grow up in Washington?').toLowerCase();
 
-    if(questionOne === 'n' || questionOne === 'no'){
-        alert('Correct! I did not grow up in Washington, I was born in Texas and grew up in Iowa.');
-        loopCheck = true;
-        correct++;
-    } else if(questionOne === 'y' || questionOne === 'yes'){
-        alert('Incorrect! I actually grew up in Iowa.');
-        loopCheck = true;
-    } else{
-        alert(invalid);
+        if(questionOne === 'n' || questionOne === 'no'){
+            alert('Correct! I did not grow up in Washington, I was born in Texas and grew up in Iowa.');
+            loopCheck = true;
+            correct++;
+        } else if(questionOne === 'y' || questionOne === 'yes'){
+            alert('Incorrect! I actually grew up in Iowa.');
+            loopCheck = true;
+        } else{
+            alert(invalid);
+        }
     }
 }
-
 // Question Two
 // Function name: numTwo
 // Input: None
