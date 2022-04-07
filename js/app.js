@@ -186,3 +186,10 @@ function numSeven() {
         sounds rather unclear to you as a reader I appreciate you coming to my page and reading about me."
     */
 }
+numOne();
+numTwo();
+numThree();
+numFour();
+numFive();
+numSix();
+numSeven();
