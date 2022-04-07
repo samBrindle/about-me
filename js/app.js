@@ -99,18 +99,20 @@ function numFour() {
 // Question Five
 // Function name: numFive
 // Input: None
-while(loopCheck !== true){
-    let questionFive = prompt('Is Discord my favorit tech company?').toLowerCase();
+function numFive() {
+    while(loopCheck !== true){
+        let questionFive = prompt('Is Discord my favorit tech company?').toLowerCase();
 
-    if(questionFive === 'y' || questionFive === 'yes'){
-        alert('Correct! Discord is an awesome application that allows me to connect with people everywhere for gaming and other things!');
-        loopCheck = true;
-        correct++;
-    } else if(questionFive === 'n' || questionFive === 'no'){
-        alert('Incorrect! Discord is an awesome application and I recomment you check it out!');
-        loopCheck = true;
-    }else{
-        alert(invalid);
+        if(questionFive === 'y' || questionFive === 'yes'){
+            alert('Correct! Discord is an awesome application that allows me to connect with people everywhere for gaming and other things!');
+            loopCheck = true;
+            correct++;
+        } else if(questionFive === 'n' || questionFive === 'no'){
+            alert('Incorrect! Discord is an awesome application and I recomment you check it out!');
+            loopCheck = true;
+        }else{
+            alert(invalid);
+        }
     }
 }
 
