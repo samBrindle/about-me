@@ -119,27 +119,28 @@ function numFive() {
 // Question Six
 // Function name: numSix
 // Input: None
-for(let i = 0; i <= 4; i++) {
-    if(i === 4){
-        alert(`Sorry you used all 4 guesses. The correct answer was ${number}`);
-        i = 5;
-    } else {
-        let questionSix = parseInt(prompt('What number betweem 1-100 am I thinking of?'));
+function numSix() {
+    for(let i = 0; i <= 4; i++) {
+        if(i === 4){
+            alert(`Sorry you used all 4 guesses. The correct answer was ${number}`);
+            i = 5;
+        } else {
+            let questionSix = parseInt(prompt('What number betweem 1-100 am I thinking of?'));
 
-        if(questionSix === number){
-            alert(`Correct! I was thinking of ${number}.`);
-            i = 4;
-            correct++;
-        } else if( questionSix > number){
-            alert(`Incorrect, try guessing a numnber that is less than ${questionSix}`);
-        }  else if(questionSix < number){
-            alert(`Incorrect, try guessing a numnber that is greater than ${questionSix}`);
-        } else{
-            alert('You entered an invalid entry.');
+            if(questionSix === number){
+                alert(`Correct! I was thinking of ${number}.`);
+                i = 4;
+                correct++;
+            } else if( questionSix > number){
+                alert(`Incorrect, try guessing a numnber that is less than ${questionSix}`);
+            }  else if(questionSix < number){
+                alert(`Incorrect, try guessing a numnber that is greater than ${questionSix}`);
+            } else{
+                alert('You entered an invalid entry.');
+            }
         }
     }
 }
-
 // Question Seven
 // function name: numSeven
 // input: None
