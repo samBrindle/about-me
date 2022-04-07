@@ -40,21 +40,22 @@ function numOne() {
 // Question Two
 // Function name: numTwo
 // Input: None
-while(loopCheck !== false){
-    let questionTwo = prompt('Do I have an undergraduate degree?').toLowerCase();
+function numTwo() {
+    while(loopCheck !== false){
+        let questionTwo = prompt('Do I have an undergraduate degree?').toLowerCase();
 
-    if(questionTwo === 'n' || questionTwo === 'no'){
-        alert('Correct! I do not have an undergraduate degree.');
-        loopCheck = false;
-        correct++;
-    } else if(questionTwo === 'y' || questionTwo === 'yes'){
-        alert('Incorrect! I do have an Associates Degree and I do plan to finish an undergraduate degree.');
-        loopCheck = false;
-    } else{
-        alert(invalid);
+        if(questionTwo === 'n' || questionTwo === 'no'){
+            alert('Correct! I do not have an undergraduate degree.');
+            loopCheck = false;
+            correct++;
+        } else if(questionTwo === 'y' || questionTwo === 'yes'){
+            alert('Incorrect! I do have an Associates Degree and I do plan to finish an undergraduate degree.');
+            loopCheck = false;
+        } else{
+            alert(invalid);
+        }
     }
 }
-
 // Question Three
 // Function name: numThree
 // Input: None
