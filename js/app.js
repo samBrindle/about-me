@@ -132,12 +132,12 @@ for(let i = 0; i < 6; i++){
             alert(`I know the following languages ${languages}.`);
             correct++;
             youRight = true;
-            break;
+            j = languages.length;
         }
     }
         
     if(youRight){
-        break;
+        i = 6;
     } else if(i === 5){
         alert(`You used all of your guesses, I know the following languages ${languages}.`);
         break;
