@@ -32,9 +32,9 @@ main {
 }
 
 button {
-    color:#FFC300;
+    color: #FF5300;
     background-color: #0160BB;
-    margin-right: 25%;
+    border: 2px solid #FFC300;
 }
 
 /*

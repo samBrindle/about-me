@@ -15,7 +15,7 @@ let correct = 0;
 // Initializing an array for question 7
 let languages = ['english', 'spanish', 'german', 'japanese', 'java', 'python', 'javascript', 'css', 'html'];
 
-alert(`Welcome to my page ${webGuest}! Today I will be asking you a series of questions about myself.
+alert(`Welcome to my page ${webGuest}! If you would like to press the "Take my quiz!" button I will be asking you a series of questions about myself.
 Please answer them all with either yes/no or y/n.`);
 
 // Question One
