@@ -5,42 +5,36 @@
     text-align: center;
 }
 
+h1, h2, h3, h4 {
+    color: #FF5300;
+    border: 2px solid #FFC300;
+    background-color: #0160BB;
+}
+
+div {
+    width: 50%;
+}
+
 h1 {
     font-size:xx-large;
-    color:blue;
+    color: #FF5300;
     text-align: center;
-}
-
-h3 {
-    font-size: large;
-    border: 2px solid white;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: rgb(91, 206, 235);
-    color:blue;
-}
-
-h4 {
-    color: blue;
-    border: 2px solid white;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: rgb(91, 206, 235);
 }
 
 p {
     padding: 14px;
     font-size: medium;
+    margin-right: 50%;
 }
 
-h2 {
-    font-size: medium;
-    color: blue;
-    border: 2px solid white;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: rgb(91, 206, 235);
+main {
+    display: flex;
+}
 
+button {
+    color:#FFC300;
+    background-color: #0160BB;
+    margin-right: 25%;
 }
 
 /*

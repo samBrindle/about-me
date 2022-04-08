@@ -171,7 +171,7 @@ function numSeven() {
         
     }
 
-    alert(`Thank you ${webGuest} for taking my mini quiz! You got ${correct}/7!`);
+    // alert(`Thank you ${webGuest} for taking my mini quiz! You got ${correct}/7!`);
     /*
         Did I grow up in Washington? No
         Do I have an undergraduate degree? No
@@ -186,10 +186,17 @@ function numSeven() {
         sounds rather unclear to you as a reader I appreciate you coming to my page and reading about me."
     */
 }
-numOne();
-numTwo();
-numThree();
-numFour();
-numFive();
-numSix();
-numSeven();
+
+function fullQuiz(){
+    alert(`Welcome to my page ${webGuest}! Today I will be asking you a series of questions about myself.
+Please answer them all with either yes/no or y/n.`);
+    numOne();
+    numTwo();
+    numThree();
+    numFour();
+    numFive();
+    numSix();
+    numSeven();
+    alert(`Thank you ${webGuest} for taking my mini quiz! You got ${correct}/7!`);
+}
+// fullQuiz();
