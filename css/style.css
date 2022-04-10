@@ -6,7 +6,7 @@
 }
 
 h1, h2, h3, h4 {
-    color: #FF5300;
+    color: #FF5300;;
     border: 2px solid #FFC300;
     background-color: #0160BB;
 }
@@ -24,7 +24,6 @@ h1 {
 p {
     padding: 14px;
     font-size: medium;
-    margin-right: 50%;
 }
 
 main {
